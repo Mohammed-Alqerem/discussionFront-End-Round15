@@ -1,0 +1,50 @@
+
+
+
+a{
+    padding: 5px 10px;
+    display: block;
+    background-color:blue;
+    color: white;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    opacity: .5;
+}
+
+a:hover{
+ opacity: 1;
+}
+
+.image-holder{
+    position: relative;
+}
+
+
+.up{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    opacity: 0;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    background-color: rgb(182, 166, 166);
+    width: 100%;
+    padding: 10px;
+}
+
+
+.cards:hover .image-holder .up{
+    opacity: 1;
+}
+
